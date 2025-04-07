@@ -40,6 +40,13 @@ export const declaration = {
       text: "He has forbidden his Governors to pass Laws of immediate and pressing importance, unless suspended in their operation till his Assent should be obtained; and when so suspended, he has utterly neglected to attend to them.",
       newsStories: [
         {
+          title: "Emails Confirm Social Security Administration Canceled Maine Contracts As Political Payback",
+          date: "2025-04-02",
+          url: "https://www.huffpost.com/entry/janet-mills-social-security-maine-leland-dudek_n_67ed2d99e4b0b937ab8f135c",
+          imageUrl: "https://img.huffingtonpost.com/asset/67ed2e3415000024000abcae.jpeg?ops=1200_630",
+          summary: "After the Governor of Maine pushed back on Donald Trump's executive orders targeting trans rights, his administration forced parents of newborns to go to Social Security offices to register their children instead of the long-standing practice of registering at the hospital. Emails show this was explicitly for political retribution.",
+        },
+        {
           url: "https://www.nytimes.com/2024/05/23/us/politics/border-deal-senate-democrats.html",
           imageUrl: "https://static01.nyt.com/images/2024/05/23/multimedia/23dc-cong1-mjwf/23dc-cong1-mjwf-videoSixteenByNine3000.jpg",
           summary: "After a bipartisan consensus was reached on a (very harsh) bill to curtail migration at the US border with Mexico, Trump scuttled it, despite having no formal power at the time.",
