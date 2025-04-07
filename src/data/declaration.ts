@@ -144,13 +144,7 @@ export const declaration = {
       id: "affected-military-independent",
       text: "He has affected to render the Military independent of and superior to the Civil power.",
       newsStories: [
-        {
-          url: "https://www.nytimes.com/2024/05/21/us/politics/military-justice-reform.html",
-          imageUrl: "https://static01.nyt.com/images/2024/05/21/multimedia/21dc-military-mjwf/21dc-military-mjwf-videoSixteenByNine3000.jpg",
-          summary: "Debate continues over military justice reform as some argue for maintaining military courts' independence from civilian oversight.",
-          title: "Military Justice Reform Stalls as Debate Over Civilian Oversight Continues",
-          date: "2024-05-21"
-        }
+
       ]
     },
     {
@@ -177,39 +171,21 @@ export const declaration = {
       id: "imposing-taxes",
       text: "For imposing Taxes on us without our Consent:",
       newsStories: [
-        {
-          url: "https://www.nytimes.com/2024/05/20/us/politics/wealth-tax-debate.html",
-          imageUrl: "https://static01.nyt.com/images/2024/05/20/multimedia/20dc-tax-mjwf/20dc-tax-mjwf-videoSixteenByNine3000.jpg",
-          summary: "Proposed wealth tax legislation sparks debate over taxation without direct representation, as some argue the wealthy have disproportionate influence in tax policy.",
-          title: "Wealth Tax Debate Reignites Questions About Taxation and Representation",
-          date: "2024-05-20"
-        }
+
       ]
     },
     {
       id: "depriving-trial",
       text: "For depriving us in many cases, of the benefits of Trial by Jury:",
       newsStories: [
-        {
-          url: "https://www.nytimes.com/2024/05/19/us/politics/military-tribunals-guantanamo.html",
-          imageUrl: "https://static01.nyt.com/images/2024/05/19/multimedia/19dc-gitmo-mjwf/19dc-gitmo-mjwf-videoSixteenByNine3000.jpg",
-          summary: "Military tribunals at Guantanamo Bay continue to operate without traditional jury trials, raising concerns about due process rights.",
-          title: "Military Tribunals Continue Without Jury Trials, Raising Due Process Concerns",
-          date: "2024-05-19"
-        }
+
       ]
     },
     {
       id: "transporting-beyond-seas",
       text: "For transporting us beyond Seas to be tried for pretended offences:",
       newsStories: [
-        {
-          url: "https://www.nytimes.com/2024/05/18/us/politics/extradition-cases.html",
-          imageUrl: "https://static01.nyt.com/images/2024/05/18/multimedia/18dc-extra-mjwf/18dc-extra-mjwf-videoSixteenByNine3000.jpg",
-          summary: "Recent extradition cases raise questions about the fairness of trying individuals in foreign jurisdictions for alleged crimes.",
-          title: "Extradition Cases Spark Debate Over Foreign Jurisdiction Trials",
-          date: "2024-05-18"
-        }
+
       ]
     },
     {
