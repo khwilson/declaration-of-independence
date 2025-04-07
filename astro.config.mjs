@@ -5,7 +5,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://khwilson.github.io/declaration-of-independence/',
+  site: 'https://khwilson.github.io',
+  base: 'declaration-of-independence',
   integrations: [
     tailwind({
       // Disable the default base styles
