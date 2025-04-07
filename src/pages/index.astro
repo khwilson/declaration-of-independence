@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { declaration } from '../data/declaration';
+import '../styles/historical.css';
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout title="Declaration of Independence">
+	<div class="prose max-w-none historical-text">
+		<h1 class="historical-title text-4xl text-center">The Declaration of Independence</h1>
+
+		<p>The Declaration of Independence was written by the Founders of the United States to tell the world what King George III had done to warrant their breaking off from the Empire. Donald Trump's actions as President bear an uncanny resemblance to these same reasons the Founders went to war 250 years ago instead of remaining under British rule. This site collects some of these stories.</p>
+
+		<p class="historical-preamble">{declaration.preamble}</p>
+
+		<h2 class="text-2xl font-semibold mb-4">Grievances</h2>
+
+		<ul class="historical-grievances">
+			{declaration.grievances.map((grievance) => (
+				<li>
+					<a
+						href={`/grievances/${grievance.id}`}
+						class="text-blue-600 hover:text-blue-800 hover:underline"
+					>
+						{grievance.text}
+					</a>
+				</li>
+			))}
+		</ul>
+
+		<div class="historical-preamble">
+		    {declaration.postamble.map((sentence) => (
+				<p class="historical-postamble">{sentence}</p>
+			))}
+		</div>
+	</div>
+</Layout>

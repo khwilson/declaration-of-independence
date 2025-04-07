@@ -1,0 +1,35 @@
+---
+import type { NewsStory } from '../data/declaration';
+
+interface Props {
+  story: NewsStory;
+}
+
+const { story } = Astro.props;
+
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+};
+---
+
+<article class="bg-white rounded-lg shadow-sm overflow-hidden historical-text">
+  <a href={story.url} target="_blank" rel="noopener noreferrer" class="block">
+    <div class="aspect-w-16 aspect-h-9">
+      <img
+        src={story.imageUrl}
+        alt={story.title}
+        class="object-cover w-full h-full"
+      />
+    </div>
+    <div class="pb-4 pl-4 pr-4">
+      <h3 class="text-lg font-semibold text-gray-900 mb-2">{story.title}</h3>
+      <p class="text-gray-600 text-sm mb-2">{story.summary}</p>
+      <p class="text-gray-500 text-xs italic">{formatDate(story.date)}</p>
+    </div>
+  </a>
+</article>

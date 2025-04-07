@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+.historical-text {
+  font-family: 'Crimson Text', serif;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+.historical-title {
+  font-family: 'Crimson Text', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.historical-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #8B4513, transparent);
+}
+
+.historical-preamble {
+  font-style: italic;
+  font-size: 1.25rem;
+  color: #4A4A4A;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-left: 4px solid #8B4513;
+  background-color: rgba(139, 69, 19, 0.05);
+}
+
+.historical-postamble {
+  margin-bottom: 1rem;
+}
+
+.historical-grievances {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.historical-grievances li {
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.historical-grievances li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #8B4513;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.historical-grievances a {
+  color: #8B4513;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.historical-grievances a:hover {
+  color: #5D2D0C;
+  text-decoration: underline;
+}
