@@ -201,7 +201,13 @@ export const declaration = {
       id: "transporting-beyond-seas",
       text: "For transporting us beyond Seas to be tried for pretended offences:",
       newsStories: [
-
+        {
+          url: 'https://en.wikipedia.org/wiki/Deportation_of_Kilmar_Abrego_Garcia',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Aerial_view_of_CECOT.png/500px-Aerial_view_of_CECOT.png',
+          title: 'Deportation of Kilmar Abrego Garcia',
+          summary: 'The Trump administration disappeared Kilmar Abrego Garcia to a Salvadoran prison due to unproven "gang affiliations" and despite a court order he not be removed from the country. Since, it has refused to comply with court orders to facilitate his return.',
+          date: '2025-04-13',
+        }
       ]
     },
     {
