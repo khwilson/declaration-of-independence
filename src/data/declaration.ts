@@ -148,6 +148,13 @@ export const declaration = {
       text: "He has kept among us, in times of peace, Standing Armies without the Consent of our legislatures.",
       newsStories: [
         {
+          url: 'https://www.nytimes.com/2025/04/11/us/politics/trump-military-border.html',
+          title: 'Trump Directive Calls for Turning Border Strip Into ‘Military Installation’',
+          imageUrl: 'https://static01.nyt.com/images/2025/04/11/multimedia/11dc-military-border-jhmp/11dc-military-border-jhmp-facebookJumbo.jpg',
+          summary: 'Trump proposes turning a 60ft-wide stretch of civilian land along the Southern border into a "military base," to allow troops to detain migrants for trespassing on a military base. This land runs by many local communities over hundreds of miles, and as it is only 60ft wide, troops would almost certainly need to be quartered in civilian premises.',
+          date: '2025-04-12'
+        },
+        {
           url: "https://www.nytimes.com/2024/05/22/us/politics/national-guard-texas-border.html",
           imageUrl: "https://static01.nyt.com/images/2024/05/22/multimedia/22dc-guard-mjwf/22dc-guard-mjwf-videoSixteenByNine3000.jpg",
           summary: "Texas Governor deploys National Guard troops to the border without legislative approval, raising questions about the use of military forces in domestic affairs.",
