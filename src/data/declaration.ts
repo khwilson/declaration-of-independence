@@ -102,7 +102,15 @@ export const declaration = {
     {
       id: "obstructed-immigration",
       text: "He has endeavoured to prevent the population of these States; for that purpose obstructing the Laws for Naturalization of Foreigners; refusing to pass others to encourage their migrations hither, and raising the conditions of new Appropriations of Lands.",
-      newsStories: []
+      newsStories: [
+        {
+          url: 'https://www.nbcnews.com/news/latino/trump-administration-stops-processing-green-cards-vetting-rcna198061',
+          title: "Trump administration stops processing some green cards 'to do more vetting'",
+          summary: 'Slow-walking green card applications of asylees and refugees who have already waited many months for their applications to come through.',
+          imageUrl: 'https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-02/240220-office-of-US-Citizenship-and-Immigration-Services-ew-126p-7182a5.jpg',
+          date: '2025-03-25'
+        },
+      ]
     },
     {
       id: "obstructed-justice",
@@ -165,7 +173,15 @@ export const declaration = {
     {
       id: "cutting-off-trade",
       text: "For cutting off our Trade with all parts of the world:",
-      newsStories: []
+      newsStories: [
+        {
+          url: 'https://www.washingtonpost.com/business/2025/02/01/tariff-mexico-canada-trump/',
+          imageUrl: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/C4AIDOFN3RVECQ5AKEJZZGOPHU_size-normalized.jpg&w=1440',
+          summary: 'In February, Trump imposed 10-25% tariffs on goods coming from Canada and Mexico, despite treaty obligations requiring no tariffs.',
+          titie: 'Trump imposes tariffs on Canada, Mexico and China',
+          date: '2025-02-01',
+        }
+      ]
     },
     {
       id: "imposing-taxes",
