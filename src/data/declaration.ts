@@ -133,7 +133,15 @@ export const declaration = {
     {
       id: "erected-new-offices",
       text: "He has erected a multitude of New Offices, and sent hither swarms of Officers to harrass our people, and eat out their substance.",
-      newsStories: []
+      newsStories: [
+        {
+          url: 'https://www.wired.com/story/social-security-administration-regional-office-elon-musk-x/',
+          summary: "DOGE is working to make it harder for seniors to access their Social Security benefits by firing the staff who helps them navigate the process and resolve their issues with the program.",
+          imageUrl: 'https://media.wired.com/photos/67f9402dafdcb312a812092c/191:100/w_1280,c_limit/AP25088402619903.jpg',
+          title: 'The Social Security Administration Is Gutting Regional Staff and Shifting All Public Communications to X',
+          date: '2025-04-11'
+        }
+      ]
     },
     {
       id: "kept-standing-armies",
