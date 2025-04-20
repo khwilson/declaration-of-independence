@@ -183,7 +183,15 @@ export const declaration = {
     {
       id: "protecting-them",
       text: "For protecting them, by a mock Trial, from punishment for any Murders which they should commit on the Inhabitants of these States:",
-      newsStories: []
+      newsStories: [
+        {
+          url: 'https://www.aljazeera.com/news/2025/1/23/the-january-6-pardons-who-has-trump-ordered-to-be-released',
+          title: 'The January 6 pardons: Who has Trump ordered to be released?',
+          summary: 'As one of his first actions, President Trump set free all of the January 6th insurrectionists.',
+          imageUrl: 'https://www.aljazeera.com/wp-content/uploads/2021/11/AP21295816030789.jpg?resize=1200%2C675',
+          date: '2025-01-23'
+        }
+      ]
     },
     {
       id: "cutting-off-trade",
@@ -222,6 +230,13 @@ export const declaration = {
           title: 'Deportation of Kilmar Abrego Garcia',
           summary: 'The Trump administration disappeared Kilmar Abrego Garcia to a Salvadoran prison due to unproven "gang affiliations" and despite a court order he not be removed from the country. Since, it has refused to comply with court orders to facilitate his return.',
           date: '2025-04-13',
+        },
+        {
+          url: 'https://www.theguardian.com/us-news/2025/apr/17/trump-rumeysa-ozturk-tufts-detention',
+          imageUrl: 'https://i.guim.co.uk/img/media/8d289f723a25b918b57732835f11f494aaf2e341/0_72_5000_3001/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9859590ce009604737f2428e3b311dda',
+          title: 'Tufts student detained for writing op-ed denied bail by US immigration judge',
+          summary: 'Tufts student Rümeysa Öztürk was seized in Massachusetts by plainclothes agents and spirited to Louisiana detention center.',
+          date: '2025-04-17'
         }
       ]
     },
@@ -238,7 +253,9 @@ export const declaration = {
     {
       id: "suspending-legislatures",
       text: "For suspending our own Legislatures, and declaring themselves invested with power to legislate for us in all cases whatsoever.",
-      newsStories: []
+      newsStories: [
+
+      ]
     },
     {
       id: "abdicated-government",
@@ -263,7 +280,15 @@ export const declaration = {
     {
       id: "excited-domestic-insurrections",
       text: "He has excited domestic insurrections amongst us, and has endeavoured to bring on the inhabitants of our frontiers, the merciless Indian Savages, whose known rule of warfare, is an undistinguished destruction of all ages, sexes and conditions.",
-      newsStories: []
+      newsStories: [
+        {
+          url: 'https://www.pbs.org/newshour/politics/read-the-final-report-from-the-jan-6-committee',
+          title: 'The Final Report from the January 6th Committee',
+          summary: 'On January 6, 2021, President Trump incited an insurrection against the United States in an attempt to overturn the results of the 2020 election.',
+          imageUrl: 'https://d3i6fh83elv35t.cloudfront.net/static/2022/12/2022-12-19T195602Z_1165840266_RC279Y95CTGY_RTRMADP_3_USA-CAPITOL-SECURITY-1024x805.jpg',
+          date: '2022-12-22'
+        }
+      ]
     }
   ]
 };
