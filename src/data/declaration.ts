@@ -285,6 +285,13 @@ export const declaration = {
           title: 'Tufts student detained for writing op-ed denied bail by US immigration judge',
           summary: 'Tufts student Rümeysa Öztürk was seized in Massachusetts by plainclothes agents and spirited to Louisiana detention center.',
           date: '2025-04-17'
+        },
+        {
+          url: 'https://www.nbcnews.com/news/latino/family-fears-safety-venezuelan-makeup-artist-deported-salvadoran-megap-rcna200078',
+          title: 'Family fears for safety of Venezuelan makeup artist deported to Salvadoran megaprison',
+          summary: "Andry Hernandez Romero was deported to El Salvador based on the government's contention that his tattoos linked him to a Venezuelan gang. Friends and family say the tattoos are merely a symbol of his love for his hometown's Three Kings Day festival.",
+          imageUrl: 'https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-04/250407-Andry-Hernandez-Romero-ac-559p-3f9aed.jpg',
+          date: '2025-04-08'
         }
       ]
     },
