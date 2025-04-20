@@ -236,7 +236,7 @@ export const declaration = {
           url: 'https://www.washingtonpost.com/business/2025/02/01/tariff-mexico-canada-trump/',
           imageUrl: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/C4AIDOFN3RVECQ5AKEJZZGOPHU_size-normalized.jpg&w=1440',
           summary: 'In February, Trump imposed 10-25% tariffs on goods coming from Canada and Mexico, despite treaty obligations requiring no tariffs.',
-          titie: 'Trump imposes tariffs on Canada, Mexico and China',
+          title: 'Trump imposes tariffs on Canada, Mexico and China',
           date: '2025-02-01',
         }
       ]
