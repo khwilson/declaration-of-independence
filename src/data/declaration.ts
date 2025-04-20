@@ -115,7 +115,22 @@ export const declaration = {
     {
       id: "obstructed-justice",
       text: "He has obstructed the Administration of Justice, by refusing his Assent to Laws for establishing Judiciary powers.",
-      newsStories: []
+      newsStories: [
+        {
+          url: 'https://www.npr.org/2025/04/16/g-s1-60696/judge-contempt-alien-enemies-act',
+          title: "Judge: 'Probable cause' to hold U.S. in contempt over Alien Enemies Act deportations",
+          summary: 'The government sent several planeloads of alleged gang members to El Salvador, including 137 people under the act, the White House said at the time. Judge finds probable cause that the Trump administration did not comply.',
+          imageUrl: 'https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x4608+0+677/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F38%2F67%2F1363309e4ae28b9d26f28c08ad62%2Fgettyimages-2204881095.jpg',
+          date: '2025-04-16',
+        },
+        {
+          url: 'https://www.nbcnews.com/politics/immigration/judge-abrego-garcia-case-indicates-weighing-contempt-proceedings-trump-rcna201359',
+          title: "Judge in Abrego Garcia case indicates she's weighing contempt proceedings against Trump administration",
+          summary: 'U.S. District Judge Paula Xinis said the administration has done "nothing" to facilitate the return of Kilmar Abrego Garcia, even though court orders have required action by officials.',
+          imageUrl: 'https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-04/250409-Kilmar-Abrego-Garcia-mn-0755-d8ceeb.jpg',
+          date: '2025-04-15'
+        },
+      ]
     },
     {
       id: "made-judges-dependent",
@@ -167,7 +182,27 @@ export const declaration = {
       id: "affected-military-independent",
       text: "He has affected to render the Military independent of and superior to the Civil power.",
       newsStories: [
-
+        {
+          url: 'https://apnews.com/article/trump-brown-joint-chiefs-of-staff-firing-fa428cc1508a583b3bf5e7a5a58f6acf',
+          title: 'Trump fires chairman of the Joint Chiefs of Staff and two other military officers',
+          imageUrl: 'https://dims.apnews.com/dims4/default/8691eba/2147483647/strip/true/crop/6048x3402+0+311/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fab%2F03%2F146b5adf1793acabc1bf2b6b425f%2F31247abc2b8b44d0bc34bbf9c0f2ad32',
+          summary: 'President Donald Trump has abruptly fired Air Force Gen. CQ Brown Jr. as chair of the Joint Chiefs of Staff. Defense Secretary Pete Hegseth announced the firings of two additional senior officers.',
+          date: '2025-02-22'
+        },
+        {
+          url: 'https://defensescoop.com/2025/02/21/trump-fires-adm-franchetti-chief-of-naval-operations/',
+          title: 'Trump fires Franchetti as chief of naval operations',
+          summary: "President Donald Trump is looking for a nominee to replace Adm. Lisa Franchetti as the Navy's top officer, the Pentagon announced Friday night.",
+          date: '2025-02-22',
+          imageUrl: 'https://defensescoop.com/wp-content/uploads/sites/8/2025/02/Franchetti-e1740189425149.jpg'
+        },
+        {
+          url: 'https://www.pbs.org/newshour/politics/senate-confirms-trump-nominee-for-joint-chiefs-of-staff-chair-in-overnight-vote',
+          title: 'Senate confirms Trump nominee for Joint Chiefs of Staff chair in overnight vote',
+          summary: `Retired Air Force Lt. Gen. Dan "Razin" Caine was nominated in February after Trump fired Gen. CQ Brown Jr. as part of his Republican administration's campaign to rid the military of leaders who support diversity and equity in the ranks.`,
+          imageUrl: 'https://d3i6fh83elv35t.cloudfront.net/static/2025/04/2025-02-22T193129Z_349226979_RC2DOQ98NOCL_RTRMADP_3_USA-TRUMP-PENTAGON-FIRING-1024x683.jpg',
+          date: '2025-04-11'
+        },
       ]
     },
     {
@@ -210,7 +245,20 @@ export const declaration = {
       id: "imposing-taxes",
       text: "For imposing Taxes on us without our Consent:",
       newsStories: [
-
+        {
+          url: 'https://www.nytimes.com/2025/03/13/business/economy/trump-tariff-timeline.html',
+          title: 'A Timeline of Trump’s On-Again, Off-Again Tariffs',
+          imageUrl: 'https://static01.nyt.com/images/2025/03/12/multimedia/12econ-news-blog-tariff-timeline-zpvj/12econ-news-blog-tariff-timeline-zpvj-facebookJumbo.jpg',
+          summary: 'President Trump’s penchant for imposing and then suspending tariffs has shaken markets and confounded trading partners.',
+          date: '2025-03-13'
+        },
+        {
+          url: 'https://budgetlab.yale.edu/research/state-us-tariffs-april-15-2025',
+          title: 'State of U.S. Tariffs: April 15, 2025',
+          imageUrl: 'https://budgetlab.yale.edu/sites/default/files/styles/social_media/public/2024-10/Tariffs%20report%20page%20image.jpg?h=c7c84225&itok=dbAq8Rmr',
+          date: '2025-04-15',
+          summary: "President Trump's tariffs are estimated to cost American households around $5000 per year, a tax that Congress never approved.",
+        }
       ]
     },
     {
